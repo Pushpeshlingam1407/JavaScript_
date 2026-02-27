@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body id="main">
+    <img id="like" src="https://shorturl.at/mtdHj" width="200" alt="Like" />
+    <button onclick="changeStatus()" id="status">DisLike</button>
+    <script>
+      let LikeElement = document.getElementById("like");
+      let statElement = document.getElementById("status");
+      let status = 1;
+      function changeStatus() {
+        if (status === 1) {
+          status = 0;
+          statElement.innerText = "Dislike";
+          LikeElement.src = "https://shorturl.at/mtdHj";
+        } else {
+          status = 1;
+          statElement.innerText = "Like";
+          LikeElement.src = "https://shorturl.at/NLGvW";
+        }
+      }
+    </script>
+  </body>
+</html>
