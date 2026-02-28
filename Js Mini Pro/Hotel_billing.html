@@ -1,0 +1,359 @@
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  <style>
+    *{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+.container
+{
+    display: flex;
+    width: 300px;
+    height: auto;
+    margin:auto;
+    background-color: skyblue;
+    margin-top:100px;
+    flex-direction: column;
+    padding:20px;
+}
+.form-group
+{
+    display: flex;
+    flex-direction: column;
+}
+.form-row
+{
+display: flex;
+width:300px;
+flex-direction: row;
+gap:15px;
+}
+.form-row input{
+    width:120px;
+}
+.button-group
+{
+    display: flex;
+    
+    flex-direction: row;
+
+}
+.button{
+    width:120px;
+    margin-top:20px;
+    margin-right:15px;
+    padding:5px ;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+  </style>
+  </head>
+  <body>
+    <form method="POST" >
+    <div class="container">
+      <div class="form-group">
+        <label>Bill Amount</label>
+        <input type="number" id="bill_amount" onblur="focusDisAmount()"/>
+      </div>
+      <div class="form-group">
+        <label>Discount Amount</label>
+        <input type="number" id="discount_amount" onblur="getGrossAmount()" />
+      </div>
+      <div class="form-group">
+        <label>Gross Amount</label>
+        <input type="number" id="gross_amount"/>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Tax %</label>
+          <input type="number" id="tax_percent" onblur="getNetAmount()"" />
+        </div>
+        <div class="form-group">
+          <label>Tax Amount</label>
+          <input type="number" id="tax_amount" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Net Amount</label>
+        <input type="number" id="net_amount" />
+      </div>
+      <div class="form-group">
+        <label>Tip Amount</label>
+        <input type="number" id="tip_amount" onblur="getPayableAmount()" />
+      </div>
+      <div class="form-group">
+        <label>Payable Amount</label>
+        <input type="number" id="payable_amount" />
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label>Split Bill</label> <input type="number" id="split_bill" onblur="getForEachAmount()" /></div>
+        <div class="form-group"><label>Foreach Amount</label> <input type="number" id="foreach_amount"/></div>
+      </div>
+      <div class="button-group">
+        <input class="button"  type="submit" value="Pay"/>
+        <input class="button" type="reset" value="Clear"/>
+      </div>
+    </div>
+    </form>
+
+    <script>
+        let bill_amountElement=document.getElementById("bill_amount");
+let discount_amountElement=document.getElementById("discount_amount");
+let gross_amountElement=document.getElementById("gross_amount");
+let tax_percentElement=document.getElementById("tax_percent");
+let tax_amountElement=document.getElementById("tax_amount");
+let net_amountElement=document.getElementById("net_amount");
+let tip_amountElement=document.getElementById("tip_amount");
+let payable_amountElement=document.getElementById("payable_amount");
+let split_billElement=document.getElementById("split_bill");
+let foreach_amountElement=document.getElementById("foreach_amount");
+
+function focusDisAmount()
+{
+discount_amountElement.focus
+}
+function getGrossAmount()
+{
+let gross_amount=bill_amountElement.value -discount_amountElement.value;
+gross_amountElement.value=gross_amount;
+tax_percentElement.focus();
+
+}
+function getNetAmount()
+{
+    let taxAmount=(gross_amountElement.value*tax_percentElement.value)/100;
+    tax_amountElement.value=taxAmount;
+    net_amountElement.value=parseInt(gross_amountElement.value)+taxAmount;
+    tip_amountElement.focus();
+
+}
+function getPayableAmount()
+{
+    payable_amountElement.value=parseInt(net_amountElement.value)+parseInt(tip_amountElement.value);
+    split_billElement.focus();
+
+}
+function getForEachAmount()
+{
+let splitbill=parseInt(split_billElement.value);
+if(splitbill<=0)
+{
+foreach_amountElement.value=payable_amountElement.value;
+}
+else
+{
+foreach_amountElement.value=parseInt(payable_amountElement.value)/splitbill;
+}
+}
+    </script>
+  </body>
+</html> -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+      }
+
+      .container {
+        display: flex;
+        width: 300px;
+        height: auto;
+        margin: auto;
+        background-color: skyblue;
+        margin-top: 100px;
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .form-row {
+        display: flex;
+        width: 300px;
+        flex-direction: row;
+        gap: 15px;
+      }
+
+      .form-row input {
+        width: 120px;
+      }
+
+      .button-group {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .button {
+        width: 120px;
+        margin-top: 20px;
+        margin-right: 15px;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 1rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form method="POST">
+      <div class="container">
+        <div class="form-group">
+          <label>Bill Amount</label>
+          <input type="number" id="bill_amount" onblur="focusDisAmount()" />
+        </div>
+
+        <div class="form-group">
+          <label>Discount Amount</label>
+          <input
+            type="number"
+            id="discount_amount"
+            onblur="getGrossAmount()"
+          />
+        </div>
+
+        <div class="form-group">
+          <label>Gross Amount</label>
+          <input type="number" id="gross_amount" />
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Tax %</label>
+            <input
+              type="number"
+              id="tax_percent"
+              onblur="getNetAmount()"" 
+            />
+          </div>
+
+          <div class="form-group">
+            <label>Tax Amount</label>
+            <input type="number" id="tax_amount" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Net Amount</label>
+          <input type="number" id="net_amount" />
+        </div>
+
+        <div class="form-group">
+          <label>Tip Amount</label>
+          <input
+            type="number"
+            id="tip_amount"
+            onblur="getPayableAmount()"
+          />
+        </div>
+
+        <div class="form-group">
+          <label>Payable Amount</label>
+          <input type="number" id="payable_amount" />
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Split Bill</label>
+            <input
+              type="number"
+              id="split_bill"
+              onblur="getForEachAmount()"
+            />
+          </div>
+
+          <div class="form-group">
+            <label>Foreach Amount</label>
+            <input type="number" id="foreach_amount" />
+          </div>
+        </div>
+
+        <div class="button-group">
+          <input class="button" type="submit" value="Pay" />
+          <input class="button" type="reset" value="Clear" />
+        </div>
+      </div>
+    </form>
+
+    <script>
+      let bill_amountElement = document.getElementById("bill_amount");
+      let discount_amountElement =
+        document.getElementById("discount_amount");
+      let gross_amountElement =
+        document.getElementById("gross_amount");
+      let tax_percentElement =
+        document.getElementById("tax_percent");
+      let tax_amountElement =
+        document.getElementById("tax_amount");
+      let net_amountElement =
+        document.getElementById("net_amount");
+      let tip_amountElement =
+        document.getElementById("tip_amount");
+      let payable_amountElement =
+        document.getElementById("payable_amount");
+      let split_billElement =
+        document.getElementById("split_bill");
+      let foreach_amountElement =
+        document.getElementById("foreach_amount");
+
+      function focusDisAmount() {
+        discount_amountElement.focus;
+      }
+
+      function getGrossAmount() {
+        let gross_amount =
+          bill_amountElement.value -
+          discount_amountElement.value;
+        gross_amountElement.value = gross_amount;
+        tax_percentElement.focus();
+      }
+
+      function getNetAmount() {
+        let taxAmount =
+          (gross_amountElement.value *
+            tax_percentElement.value) /
+          100;
+        tax_amountElement.value = taxAmount;
+        net_amountElement.value =
+          parseInt(gross_amountElement.value) +
+          taxAmount;
+        tip_amountElement.focus();
+      }
+
+      function getPayableAmount() {
+        payable_amountElement.value =
+          parseInt(net_amountElement.value) +
+          parseInt(tip_amountElement.value);
+        split_billElement.focus();
+      }
+
+      function getForEachAmount() {
+        let splitbill = parseInt(split_billElement.value);
+
+        if (splitbill <= 0) {
+          foreach_amountElement.value =
+            payable_amountElement.value;
+        } else {
+          foreach_amountElement.value =
+            parseInt(payable_amountElement.value) /
+            splitbill;
+        }
+      }
+    </script>
+  </body>
+</html>
