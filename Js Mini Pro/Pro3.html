@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>InputA </label> <input type="number" id="inputA"/> <br>
+    <label>InputB </label> <input type="number" id="inputB"/> <br><br>
+    <span id="result"></span> <br>
+    <button onclick="Mathop('add')">ADD</button>
+    <button onclick="Mathop('Sub')">SUB</button>
+    <button onclick="Mathop('Mul')">MUL</button>
+    <button onclick="Mathop('Div')">DIV</button>
+    <button onclick="Mathop('Mod')">MOD</button>
+</body>
+<script>
+    let iAElement=document.getElementById("inputA");
+    let iBElement=document.getElementById("inputB");
+    let resElement=document.getElementById("result");
+
+    function Mathop(choice){
+        switch(choice){
+            case "add":
+                resElement.innerHTML=parseInt(iAElement.value)+parseInt(iBElement.value);
+                break;
+            case "Sub":
+                resElement.innerHTML=parseInt(iAElement.value)-parseInt(iBElement.value);
+                break;    
+            case "Mul":
+                resElement.innerHTML=parseInt(iAElement.value)*parseInt(iBElement.value);
+                break;
+            case "Div":
+                resElement.innerHTML=parseInt(iAElement.value)/parseInt(iBElement.value);
+                break;
+            case "Mod":
+                resElement.innerHTML=parseInt(iAElement.value)%parseInt(iBElement.value);
+                break;
+            default:
+                resElement.innerHTML="YOur choice is out of the range";
+                
+            }
+    }
+</script>
+</html>
