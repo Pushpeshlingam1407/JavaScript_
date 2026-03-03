@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 10px;
+        margin: auto;
+      }
+      label,
+      input,
+      span {
+        margin-bottom: 8px;
+      }
+    </style>
+    <script>
+      function validateAge() {
+        let AgeElement = document.getElementById("age");
+        let errorElement = document.getElementById("error");
+
+        if (age.validity.rangeOverflow) {
+          errorElement.innerText = "Age is exceeded the maximum limit";
+        } else if (age.validity.rangeUnderflow) {
+          errorElement.innerText = "Age is below the maximum limit";
+        } else {
+          errorElement.innerText = "Age is Ok";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <label> Age </label>
+      <input type="number" id="age" min="1" max="18" required />
+      <span id="error"></span>
+      <button onclick="validateAge()">Age Validate</button>
+    </div>
+  </body>
+</html>

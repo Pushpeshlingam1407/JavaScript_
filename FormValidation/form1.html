@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 10px;
+        margin: auto;
+        background-color: maroon;
+      }
+      label,
+      input,
+      span {
+        margin-bottom: 8px;
+      }
+    </style>
+    <script>
+      function ageVal() {
+        let ageElement = document.getElementById("age");
+        let errElement = document.getElementById("error");
+        let age, error;
+        age = parseInt(agxeElement.value);
+        if (isNaN(age) || age < 1 || age > 18) {
+          error = "Age is out of range";
+        } else error = "";
+        errElement.innerText = error;
+      }
+    </script>
+  </head>
+  <body>
+    <form name="myForm" action="" method="post">
+      <div class="container">
+        <label> User Name </label>
+        <input type="text" name="username" placeholder="Enter Username" />
+        <br />
+
+        <label> Age</label>
+        <input
+          type="number"
+          id="age"
+          onblur="ageVal()"
+          placeholder="Enter age between 1...18"
+        />
+        <span id="error"> </span>
+        <input type="submit" value="Save" />
+      </div>
+    </form>
+  </body>
+</html>
