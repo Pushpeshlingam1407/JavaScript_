@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 10px;
+        margin: auto;
+        background-color: skyblue;
+      }
+      label,
+      input,
+      span {
+        margin-bottom: 8px;
+      }
+    </style>
+    <script>
+      function checkValidate() {
+        let ageElement = document.getElementById("age");
+        let userNameElement = document.getElementById("username");
+        let errElement = document.getElementById("error");
+
+        let age = parseInt(ageElement.value);
+        let name = userNameElement.value;
+        let error = "";
+
+        if (name.trim() === "" || name.length < 6) {
+          error = "User Name must be 6 characters or more";
+        } else if (isNaN(age) || age < 1 || age > 18) {
+          error = "Age must be between 1 and 18";
+        }
+
+        errElement.innerText = error;
+
+        return error === "";
+      }
+    </script>
+  </head>
+  <body>
+    <form
+      name="myForm"
+      action="form1.html"
+      onsubmit="return checkValidate()"
+      method="post"
+    >
+      <div class="container">
+        <label> User Name </label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter Username"
+        />
+        <br />
+
+        <label> Age</label>
+        <input
+          type="number"
+          id="age"
+          onblur="checkValidate()"
+          placeholder="Enter age between 1...18"
+        />
+        <span id="error"> </span>
+        <input type="submit" value="Save" />
+      </div>
+    </form>
+  </body>
+</html>

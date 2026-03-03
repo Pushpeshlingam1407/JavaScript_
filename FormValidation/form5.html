@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 10px;
+        margin: auto;
+      }
+      label,
+      input,
+      span {
+        margin-bottom: 8px;
+      }
+    </style>
+    <script>
+      function changeColor() {
+        let nameElement = document.getElementById("username");
+        let l = nameElement.value.length;
+        if (l > 5) {
+          nameElement.style.color = "red";
+        } else nameElement.style.color = "green";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <label> Name: </label>
+      <input type="text" id="username" required />
+      <button onclick="changeColor()">Name validate</button>
+    </div>
+  </body>
+</html>

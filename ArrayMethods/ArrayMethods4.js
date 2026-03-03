@@ -49,7 +49,7 @@ const odd = nums.filter((num) => num % 2 != 0);
 console.log(even);
 console.log(odd);
 
-//* 30) map() => Creates a new array by applying a function to each element of the array.
+//* 30) map() => Creates a new array by applying a function to eachelement of the array.
 //* applies a callback function, and returns a new array with the transformed results.
 
 const person = {
