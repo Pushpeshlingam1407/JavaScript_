@@ -1,25 +1,24 @@
-//let var const 
+//let var const
 //TODO: const is a immutable state
 //TODO: let, const are block scope variable
 //TODO: var is a global scope variable
-const a= 10;
+const a = 10;
 console.log(a);
 
-var c=25;
-let x=20;
+var c = 25;
+let x = 20;
 {
-    const p=100;
-    console.log("Block 1 "+c);
-    console.log("Block 1 "+x);
-    {
-        console.log("Block 1 "+p);
-    }
-    console.log(p);
+  const p = 100;
+  console.log("Block 1 " + c);
+  console.log("Block 1 " + x);
+  {
+    console.log("Block 1 " + p);
+  }
+  console.log(p);
 }
 {
-    console.log("Block 2 "+c);
-    console.log("Block 1 "+x);
-
+  console.log("Block 2 " + c);
+  console.log("Block 1 " + x);
 }
 
 console.log("--------------");
@@ -30,11 +29,11 @@ console.log("--------------");
 
 //example of var and let
 function example() {
-    console.log(a); // undefined (due to hoisting)
-    var a = 10;
-    console.log(a); // 10   
-    // console.log(b); // ReferenceError: Cannot access 'b' before initialization
-    let b = 20;
-    console.log(b); // 20
+  console.log(a); // undefined (due to hoisting)
+  var a = 10;
+  console.log(a); // 10
+  // console.log(b); // ReferenceError: Cannot access 'b' before initialization
+  let b = 20;
+  console.log(b); // 20
 }
 example();
