@@ -3,8 +3,8 @@
 console.log("1");
 console.log(9);
 
-setTimeout(function(){
-    console.log("2");
+setTimeout(function () {
+  console.log("2");
 }, 2000);
 
 console.log("3");
@@ -21,8 +21,7 @@ console.log("3");
 //3. Anonymous functions can be used to create closures.
 //4. Anonymous functions can be used to create IIFEs (Immediately Invoked Function Expressions).
 
-
 //TODO: IIFE (Immediately Invoked Function Expression)
-(function(a,b){
-    console.log("This is an IIFE",a,b);
-})(20,30);
+(function (a, b) {
+  console.log("This is an IIFE", a, b);
+})(20, 30);
