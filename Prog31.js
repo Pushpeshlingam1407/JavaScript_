@@ -1,6 +1,5 @@
 ///TODO: Class and Constructor
 
-
 class student {
   constructor(code, name) {
     this.code = code;

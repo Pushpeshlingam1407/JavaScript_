@@ -4,7 +4,7 @@
 // array_cloneclg=array_clone([1, 2, 4, 0]);
 // console.log(array_cloneclg);
 
-// //TODO: 
+// //TODO:
 // function* fun(){
 // let c=0;
 // for(let i=0;i<2;i++){
@@ -28,5 +28,3 @@
 // let nums=[1,2,4,6,7,8];
 // nums[100]=188;
 // console.log(nums.length);
-
-
