@@ -1,11 +1,10 @@
 //Bitwise Operators
-console.log(5&9);
-console.log(5|9);
-console.log(5^9);
-console.log(5<<9);
-console.log(9>>5);
-console.log(15>>>19);
-
+console.log(5 & 9);
+console.log(5 | 9);
+console.log(5 ^ 9);
+console.log(5 << 9);
+console.log(9 >> 5);
+console.log(15 >>> 19);
 
 //TODO: 4️⃣ 5 << 9 → Left Shift
 // Rule:
@@ -57,4 +56,3 @@ if (num & 1) {
 // * They are fast and memory-efficient.
 // * Commonly used in low-level programming, graphics, and competitive coding.
 // * Understanding them can give you an edge in certain problems.
-
