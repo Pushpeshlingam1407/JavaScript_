@@ -1,4 +1,4 @@
-//TODO:forEach loop
+//TODO: forEach loop
 
 const nums = [1, 2, 3, 4, 5];
 // let nums;
