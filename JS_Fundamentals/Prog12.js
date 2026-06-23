@@ -1,21 +1,20 @@
 //TODO: ARRAYS
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(nums[0]); //1
-console.log(nums.length); //10
+console.log(nums[0]); // 1
+console.log(nums.length); // 10
 console.log(nums);
-nums.push(8);
-console.log(nums);
-
-nums.pop(); // remove the last element
+nums.push(8); // adds an element to the end of the array
 console.log(nums);
 
-nums.shift(); // remove the first element
+nums.pop(); // removes the last element from the array
 console.log(nums);
 
-nums.unshift(1); // add the first element
+nums.shift(); // removes the first element from the array
 console.log(nums);
 
-nums = nums.splice(2, 3); // start from index 2, remove 3 elements
+nums.unshift(1); // add an element to the start of the array
 console.log(nums);
 
-// TODO: map, filter, reduce
+nums = nums.splice(2, 3); // (startIndex, deleteCount) remove elements from array
+console.log(nums);
+
