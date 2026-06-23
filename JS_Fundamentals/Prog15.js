@@ -10,7 +10,7 @@ console.log(nums);
 //syntax array.slice(startindex,endindex)
 let oorum = nums.slice(2, 5);
 console.log("Sliced Array: ");
-console.log(oorum); 
+console.log(oorum);
 
 console.log("OG Array: ");
 console.log(nums);
