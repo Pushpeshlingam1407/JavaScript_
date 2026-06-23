@@ -1,24 +1,24 @@
-//let var const
-//TODO: const is a immutable state
-//TODO: let, const are block scope variable
-//TODO: var is a global scope variable
+//TODO: let var const
+//* const is a immutable state
+//* let, const are block scope variable
+//* var is a global scope variable
 const a = 10;
-console.log(a);
+console.log("Global a value:" + a);
 
 var c = 25;
 let x = 20;
 {
   const p = 100;
-  console.log("Block 1 " + c);
-  console.log("Block 1 " + x);
+  console.log("Block 1 c value: " + c);
+  console.log("Block 1 x value: " + x);
   {
-    console.log("Block 1 " + p);
+    console.log("Block 2 p value: " + p);
   }
-  console.log(p);
+  console.log("Block 1 p value: " + p);
 }
 {
-  console.log("Block 2 " + c);
-  console.log("Block 1 " + x);
+  console.log("Block 2 c value: " + c);
+  console.log("Block 2 x value: " + x);
 }
 
 console.log("--------------");
