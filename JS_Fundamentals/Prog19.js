@@ -1,14 +1,14 @@
-//TODO: Find, every functions
+//TODO: Find, Every functions
 
 //TODO: Find
 //* syntax: array.find((element)=>{return element>value})
-//* it returns the first element in the array that satisfies the provided testing function. Otherwise undefined is returned.
+//* It returns the first element in the array that satisfies the provided testing function. Otherwise undefined is returned.
 const arr = [1, 2, 3, 4, 5, 6];
 let res = arr.find((x) => x > 3);
 console.log(res);
 
-function cv(el) {
-  return el > 4;
+function cv(ele) {
+  return ele > 4;
 }
 res = arr.find(cv);
 console.log(res);
@@ -23,3 +23,5 @@ function ce(ele) {
 }
 res = arr.every(ce);
 console.log(res);
+
+console.log(arr.every((x) => x > 0));
