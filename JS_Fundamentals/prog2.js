@@ -22,12 +22,12 @@ let x = 20;
 }
 
 console.log("--------------");
-//Difference between var and let
-//1. var is function-scoped, while let is block-scoped.
-//2. var can be redeclared within the same scope, while let cannot be redeclared in the same scope.
-//3. var variables are hoisted to the top of their scope and initialized with undefined, while let variables are also hoisted but are not initialized until their declaration is reached in the code execution flow.
+//TODO: Difference between var and let
+//* 1. var is function-scoped, while let is block-scoped.
+//* 2. var can be redeclared within the same scope, while let cannot be redeclared in the same scope.
+//* 3. var variables are hoisted to the top of their scope and initialized with undefined, while let variables are also hoisted but are not initialized until their declaration is reached in the code execution flow.
 
-//example of var and let
+//TODO: Example of var and let
 function example() {
   console.log(a); // undefined (due to hoisting)
   var a = 10;
