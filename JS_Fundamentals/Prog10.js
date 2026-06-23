@@ -6,7 +6,7 @@ console.log(5 << 9);
 console.log(9 >> 5);
 console.log(15 >>> 19);
 
-//TODO: 4️⃣ 5 << 9 → Left Shift
+//TODO: 5 << 9 → Left Shift
 // Rule:
 // * Shift bits left by 9 positions.
 // * Each left shift ≈ multiply by 2.
