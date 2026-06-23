@@ -14,25 +14,27 @@ const months = [
   "November",
   "December",
 ];
-console.log(months[0]);
-console.log(months.at(0));
+console.log("Using Bracket Notation: " + months[0]);
+console.log("Using At() Method: " + months.at(0));
 
 //TODO: IT used to return the array element
 
 const res = months.values();
 
+console.log("\nMonths: ");
 for (let x of months) {
   console.log(x);
 }
 
 //TODO: it returns the array keys
-
+console.log("\nKeys: ");
 for (x of months.keys()) {
   console.log(x);
 }
 
 const nums = [1, 2, 3, 4, 5];
-console.log(nums);
+console.log("Normal Array: " + nums);
 
-//TODO: Fill syntax: fill(value,start,end)
+//TODO: Fill
+//* syntax: fill(value,startIndex,endIndex)
 console.log(nums.fill("x", nums.length - 5, nums.length - 2));
