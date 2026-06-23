@@ -7,10 +7,10 @@
 // var a=10;
 
 let a = 10;
-console.log(a);
+console.log("a is: " + a);
 
 //const sum = (a, b) => a + b;
-console.log(sum(10, 20));
+console.log("Sum is: " + sum(10, 20));
 
 function sum(a, b) {
   return a + b;
