@@ -15,3 +15,6 @@ console.log(typeof a);
 a = false;
 console.log(a);
 console.log(typeof a);
+
+a = [1, 2, 34, 5, 6];
+console.log(typeof a);
