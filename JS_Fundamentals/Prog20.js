@@ -9,14 +9,14 @@ const person = {
 
 //TODO: Shallow copy - it creates a new object but the nested objects are still referenced to the original object.
 //TODO: Case 1:
-const student = person; // Not a copy, just a reference to the same object
-student.name = "jon snow"; // This will change the name in the original object as well
-console.log(person.name); // Output: jon snow
+const student = person; //* Not a copy, just a reference to the same object
+student.name = "jon snow"; //* This will change the name in the original object as well
+console.log(person.name); //* jon snow
 
 //TODO: Case 2:
-const student1 = { ...person }; // Shallow copy using spread operator
-student1.name = "arya stark"; // This will not change the name in the original object
-console.log(person.name); // Output: jon snow
+const student1 = { ...person }; //* Shallow copy using spread operator
+student1.name = "arya stark"; //* This will not change the name in the original object
+console.log(person.name); //* jon snow
 
 const person1 = {
   id: 1,
@@ -27,14 +27,14 @@ const person1 = {
   },
 };
 
-const student2 = { ...person1 }; // Shallow copy using spread operator
-student2.address.city = "Hyderabad"; // This will change the city in the original object as well because the address is a nested object and is still referenced to the original object
-console.log(person1.address.city); // Output: Hyderabad
+const student2 = { ...person1 }; //* Shallow copy using spread operator
+student2.address.city = "Hyderabad"; //* This will change the city in the original object as well because the address is a nested object and is still referenced to the original object
+console.log(person1.address.city); //* Hyderabad
 
 //TODO: Case 3:
-const student3 = Object.assign({}, person1); // Shallow copy using Object.assign()
-student3.address.city = "Bangalore"; // This will change the city in the original object as well because the address is a nested object and is still referenced to the original object
-console.log(person1.address.city); // Output: Bangalore
+const student3 = Object.assign({}, person1); //* Shallow copy using Object.assign()
+student3.address.city = "Bangalore"; //* This will change the city in the original object as well because the address is a nested object and is still referenced to the original object
+console.log(person1.address.city); //* Bangalore
 
 //TODO: Case 4:
 const arr1 = [1, 2, { a: 10 }];
@@ -61,12 +61,12 @@ const per = {
 };
 
 // ✅ Deep copy
-const stu = JSON.parse(JSON.stringify(per)); // Deep copy using JSON methods
+const stu = JSON.parse(JSON.stringify(per)); //* Deep copy using JSON methods
 
 per.address.city = "Hyderabad";
 
-console.log(per.address.city); // Hyderabad
-console.log(stu.address.city); // Ongole ✅ (not changed)
+console.log(per.address.city); //* Hyderabad
+console.log(stu.address.city); //* Ongole
 
 //TODO: Case 2:
 const per1 = {
@@ -88,5 +88,5 @@ const stu1 = {
 
 per1.address.city = "Bangalore";
 
-console.log(per1.address.city); // Bangalore
-console.log(stu1.address.city); // Ongole ✅
+console.log(per1.address.city); //* Bangalore
+console.log(stu1.address.city); //* Ongole
