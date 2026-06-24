@@ -6,7 +6,8 @@ function sum(a, b) {
   return a + b;
 }
 
-//* function declartions should always moves on top while execution of the javascript that is called hoisting
+//* function declartions should always moves on top while execution of the javascript
+//* that is called hoisting
 
 //TODO: Function Expression
 //This is not hoisted
