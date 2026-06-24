@@ -6,11 +6,11 @@ function sum(a, b) {
   return a + b;
 }
 
-//* function declartions should always moves on top while execution of the javascript
-//* that is called hoisting
+//* Function declarations should always moves on top during the execution of the javascript
+//* That is called hoisting
 
 //TODO: Function Expression
-//This is not hoisted
+//* This is not hoisted because we are creating it in runtime
 const sum1 = function (a, b) {
   return a + b;
 };
