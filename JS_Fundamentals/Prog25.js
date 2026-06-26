@@ -28,24 +28,7 @@ const show = (msg, fun) => {
 
 show("This is a callback function", fun);
 
-//TODO: Simple difference between callback function and higher order function with small example
-//* Higher order function: when a function is passed as an argument to another function
-function sum(a, b) {
-  return a + b;
-}
+//* Order of execution: Callback function is executed after some operation has been completed
+//* Order of execution: Higher order function is executed when it is called
 
-function operation(a, b, sum) {
-  return sum(a, b);
-}
-
-const res = operation(20, 30, sum);
-console.log(res);
-
-//* Callback function: when a function is executed after some operation has been completed
-function greet(name, callback) {
-  console.log("Hello " + name);
-  callback();
-}
-greet("Pushpesh", function () {
-  console.log("Welcome to the world of javascript");
-});
+//TODO: Simple difference between callback function and higher order function with simple small example
