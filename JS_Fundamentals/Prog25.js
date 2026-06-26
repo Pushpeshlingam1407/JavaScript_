@@ -28,7 +28,17 @@ const show = (msg, fun) => {
 
 show("This is a callback function", fun);
 
+//TODO: Flow of execution:
+//* 1. Callback function: When a function is passed as an argument to another function and is executed after some operation has been completed.
+//* 2. Higher order function: When a function is passed as an argument to another function and is executed when it is called.
+
 //* Order of execution: Callback function is executed after some operation has been completed
 //* Order of execution: Higher order function is executed when it is called
 
-//TODO: Simple difference between callback function and higher order function with simple small example
+//TODO: Example of callback function with use case
+const numbers = [1, 2, 3, 4, 5];
+function sum(number) {
+  return number + 10;
+}
+const result = numbers.map(sum);
+console.log(result);
