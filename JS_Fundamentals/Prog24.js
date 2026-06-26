@@ -21,3 +21,10 @@ function operation(a, b, op) {
 const result = operation(10, 20, (x, y) => x * y);
 
 console.log(result);
+
+//TODO: Simple shortest example
+const res1 = (a, b) => a + b;
+console.log(res1(10, 20));
+
+//* When function is passed as an argument to another function it is called as higher order function
+//* When a function is returned from a function it is called as higher order function
