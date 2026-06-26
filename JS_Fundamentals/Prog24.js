@@ -12,3 +12,12 @@ function operation(a, b, sum) {
 
 const res = operation(20, 30, sum);
 console.log(res);
+
+//* Another example
+function operation(a, b, op) {
+  return op(a, b);
+}
+
+const result = operation(10, 20, (x, y) => x * y);
+
+console.log(result);
