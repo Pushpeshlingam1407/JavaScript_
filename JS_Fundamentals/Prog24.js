@@ -13,7 +13,7 @@ function operation(a, b, sum) {
 const res = operation(20, 30, sum);
 console.log(res);
 
-//* Another example
+// TODO: Another example
 function operation(a, b, op) {
   return op(a, b);
 }
