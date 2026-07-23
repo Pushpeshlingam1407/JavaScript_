@@ -15,11 +15,11 @@
  * - Variables declared with let and const are also hoisted, but they are not initialized until their declaration is reached, so accessing them before that results in a ReferenceError due to the Temporal Dead Zone.
  */
 
-//* constanst can allow the initialization only at the declaration time and it cannot be re-assigned later.
-//* constants are block scoped variables
+//* Constants allow initialization only at declaration time and cannot be reassigned later.
+//* Constants are block-scoped variables.
 
-//* let also block scope variables but they can be re-assigned later
-//* var global scope and block scope variable
+//* let is also a block-scoped variable, but it can be reassigned later.
+//* var is a function-scoped or globally-scoped variable.
 const a = 10;
 var b = 20;
 console.log(a); //10
@@ -95,6 +95,6 @@ let n = 20;
 console.log(global.m);
 console.log(global.n);
 
-//TODO: let doesnt allow redeclaration in the same scope
+//TODO: let doesn't allow redeclaration in the same scope
 //* let y=1;
 //* let y=2; //SyntaxError: Identifier 'y' has already been declared

@@ -13,7 +13,7 @@ function outer() {
 const res = outer();
 res();
 
-//TODO: Why closure is needed?
+//TODO: Why are closures needed?
 //* Closures are used to create private variables.
 //* Closures are also used to create higher-order functions.
 //* Closures are also used to create modules.

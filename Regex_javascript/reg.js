@@ -9,7 +9,7 @@ console.log(res);
 //* $ indicates the end of the pattern
 //* {} specifies the size (length)
 
-let pat1 = /^[a-z,A-Z,0-9]{8}$/; //* Should Contain alphabets or numbers, have length 8, and $ indicates the end
+let pat1 = /^[a-z,A-Z,0-9]{8}$/; //* Should contain alphabets or numbers, have length 8, and $ indicates the end
 let pn = "Pushpesh";
 let tes = pat1.test(pn);
 console.log(tes);

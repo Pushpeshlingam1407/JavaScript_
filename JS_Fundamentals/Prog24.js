@@ -26,5 +26,5 @@ console.log(result);
 const res1 = (a, b) => a + b;
 console.log(res1(10, 20));
 
-//* When function is passed as an argument to another function it is called as higher order function
-//* When a function is returned from a function it is called as higher order function
+//* When a function is passed as an argument to another function, that outer function is called a higher-order function.
+//* When a function is returned from another function, that outer function is also called a higher-order function.
