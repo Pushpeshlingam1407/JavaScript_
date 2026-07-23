@@ -12,7 +12,7 @@ for (let x of nums.values()) {
 }
 
 //TODO: Reduce
-//* syntax array.reduce((accumulator,currentvalue)=>{return accumulator+currentvalue},initialvalue)
+//* syntax: array.reduce((accumulator,currentvalue)=>{return accumulator+currentvalue},initialvalue)
 
 /*
 let sum=nums.reduce((acc,curr)=>(acc+curr),0);

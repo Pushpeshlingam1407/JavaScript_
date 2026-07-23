@@ -7,7 +7,7 @@ console.log("After Splice: ");
 console.log(nums);
 
 //TODO: SLICE
-//syntax array.slice(startindex,endindex)
+//* syntax: array.slice(startindex,endindex)
 let oorum = nums.slice(2, 5);
 console.log("Sliced Array: ");
 console.log(oorum);
