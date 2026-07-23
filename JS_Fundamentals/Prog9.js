@@ -1,8 +1,9 @@
+//TODO: Tricky Questions
 console.log(3 + "3"); //33
 console.log(3 + "3" + 3 + "3"); //3333
 console.log(3 + 3 + "3" + 3); //633
 console.log(3 + 3 + 3 + "3" + 3); //933
-//tricky Questions
+
 console.log(3 + 3); //6
 console.log(3 + "3"); //"33"
 console.log(3 + +"3"); //6

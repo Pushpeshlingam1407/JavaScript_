@@ -1,4 +1,4 @@
-//assignment operators
+//TODO: assignment operators
 let a = 2,
   b = 8;
 console.log("a to the power of b:" + (a **= b));

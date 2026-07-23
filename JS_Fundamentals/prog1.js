@@ -1,4 +1,4 @@
-//js is a dynamic data type language
+//Js is a dynamic data type language
 //we can assign any type of data to a variable
 //we can change the type of data assigned to a variable
 
