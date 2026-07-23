@@ -1,4 +1,20 @@
 //TODO: let vs var vs const
+
+/*
+ * let vs var vs const:
+ * - var is function-scoped, while let and const are block-scoped.
+ * - var is hoisted and initialized with undefined, whereas let and const are hoisted but remain in the Temporal Dead Zone until they are declared.
+ * - var allows both redeclaration and reassignment.
+ * - let allows reassignment but not redeclaration within the same scope.
+ * - const requires initialization at the time of declaration and does not allow reassignment.
+ * - let and const were introduced in ES6 to overcome the limitations of var.
+ *
+ * Hoisting & Temporal Dead Zone (TDZ):
+ * - Hoisting is JavaScript's default behavior of moving variable and function declarations to the top of their scope before the code is executed.
+ * - Variables declared with var are hoisted and initialized with undefined.
+ * - Variables declared with let and const are also hoisted, but they are not initialized until their declaration is reached, so accessing them before that results in a ReferenceError due to the Temporal Dead Zone.
+ */
+
 //* constanst can allow the initialization only at the declaration time and it cannot be re-assigned later.
 //* constants are block scoped variables
 
