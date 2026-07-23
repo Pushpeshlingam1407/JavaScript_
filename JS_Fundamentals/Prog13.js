@@ -2,21 +2,21 @@
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(nums);
 
-for (x in nums) {
+for (let x in nums) {
   console.log(x); //index
 }
-for (x of nums) {
+for (let x of nums) {
   console.log(x); //value
 }
 
 let l = nums.length;
 for (let i = 0; i < l; i++) {
-  console.log(nums[i]);
+  console.log("Array Elements: " + nums[i]);
 }
 console.log(nums[0]);
 console.log(nums[1]);
 
-//TODO: tricky Question 
+//TODO: tricky Question
 let x = [1, 2];
 x[100] = 20;
 console.log(x.length); // Length is 101 because index 100 sets length to 100 + 1 (holes are counted).
