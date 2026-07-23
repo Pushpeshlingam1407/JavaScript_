@@ -38,4 +38,3 @@ console.log("3");
 })();
 
 //* console.log("Outside the IIFE", a);
-

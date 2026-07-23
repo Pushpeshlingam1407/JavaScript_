@@ -9,7 +9,7 @@ console.log("after push: ", nums);
 nums.pop(); // removes the last element from the array
 console.log("after pop: ", nums);
 
-nums.shift();  // removes the first element from the array
+nums.shift(); // removes the first element from the array
 console.log("after shift: ", nums);
 
 nums.unshift(1); // add an element to the start of the array
@@ -17,4 +17,3 @@ console.log("after unshift: ", nums);
 
 nums = nums.splice(2, 3); // (startIndex, deleteCount) remove elements from array
 console.log("after splice: ", nums);
-
