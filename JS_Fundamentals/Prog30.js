@@ -1,3 +1,4 @@
+// TODO: Practice core interview questions and answers in JavaScript.
 //TODO: Interview Q&A
 // TODO: Question no 1
 const arr = [-1, null, undefined, "a", 2, 3, 5, "Undefined"];

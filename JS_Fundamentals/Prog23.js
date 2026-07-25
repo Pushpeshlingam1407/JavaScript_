@@ -1,3 +1,4 @@
+// TODO: Learn anonymous functions, IIFEs, and call stack.
 //TODO: Anonymous function
 
 console.log("1");

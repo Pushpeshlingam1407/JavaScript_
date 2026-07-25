@@ -1,3 +1,4 @@
+// TODO: Learn the differences between pure and impure functions.
 /* What are Pure Functions?
 
 1. A pure function is a function that always produces the same output for the same input.

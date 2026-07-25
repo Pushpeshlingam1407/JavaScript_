@@ -1,3 +1,4 @@
+// TODO: Learn JavaScript objects and shallow vs deep cloning.
 //TODO: Objects
 
 const person = {

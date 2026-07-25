@@ -1,3 +1,4 @@
+// TODO: Learn function declarations vs function expressions.
 //TODO: Function Declaration
 
 const res = sum(45, 36);

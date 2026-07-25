@@ -1,3 +1,4 @@
+// TODO: Learn constructor functions for object blueprinting.
 //TODO: Construction functions
 //* 1. A constructor function is a function that is used to create objects.
 

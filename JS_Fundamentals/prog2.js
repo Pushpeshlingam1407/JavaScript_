@@ -1,3 +1,4 @@
+// TODO: Learn variable scoping differences between let, var, and const.
 //TODO: let var const
 //* const is a immutable state
 //* let, const are block scope variable

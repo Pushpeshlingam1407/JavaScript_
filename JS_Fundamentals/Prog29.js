@@ -1,3 +1,4 @@
+// TODO: Practice coding challenges with speed limit checking algorithm.
 checkspeed(108);
 function checkspeed(speed) {
   const sl = 70;

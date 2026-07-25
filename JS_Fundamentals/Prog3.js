@@ -1,3 +1,4 @@
+// TODO: Study JavaScript hoisting mechanisms and variable states.
 //TODO: Hoisting is a mechanism in V8 Chrome engine
 //TODO: It works only ES6 below versions functions
 //TODO: When the reference error is raised -> if you try to access a variable before it is declared

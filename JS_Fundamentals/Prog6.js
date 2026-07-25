@@ -1,3 +1,4 @@
+// TODO: Master logical operators and condition testing in JavaScript.
 //TODO: Logical Operators
 let a = 24,
   b = 34,

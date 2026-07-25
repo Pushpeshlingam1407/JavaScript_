@@ -1,3 +1,4 @@
+// TODO: Learn generator functions and lazy iteration using yield.
 //TODO: Generator functions
 //1. A generator function is a function that can be paused and resumed at any time.
 //2. It is defined using the function* syntax and it returns an iterator object.

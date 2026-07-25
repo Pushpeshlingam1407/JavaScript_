@@ -1,3 +1,4 @@
+// TODO: Learn bitwise operators and shift actions in JavaScript.
 //TODO: Bitwise Operators
 console.log(5 & 9);
 console.log(5 | 9);

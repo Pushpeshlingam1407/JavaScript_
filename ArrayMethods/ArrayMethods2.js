@@ -1,3 +1,4 @@
+// TODO: Learn array string conversions and stack/queue operations.
 //TODO: Array Methods Part 2 in Javascript
 
 //* 8) Join() & toString() => convert array into a string format

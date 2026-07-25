@@ -1,3 +1,4 @@
+// TODO: Practice iterating objects and printing properties.
 const movie = {
   title: "Interstellar",
   releaseYear: 2014,

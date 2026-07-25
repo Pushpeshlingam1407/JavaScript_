@@ -1,3 +1,4 @@
+// TODO: Learn class instantiation and default property assignments.
 class student {
   constructor() {
     this.sname = "Pushpesh";

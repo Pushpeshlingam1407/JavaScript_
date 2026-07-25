@@ -1,3 +1,4 @@
+// TODO: Learn finding items and validation checks using find and every.
 //TODO: Find, Every functions
 
 //TODO: Find

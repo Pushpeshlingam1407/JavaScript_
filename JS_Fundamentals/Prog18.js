@@ -1,3 +1,4 @@
+// TODO: Learn filling array ranges and index retrieval using fill and at.
 //TODO: Fill, at values
 
 const months = [
