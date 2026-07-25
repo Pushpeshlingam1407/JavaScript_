@@ -220,11 +220,7 @@ foreach_amountElement.value=parseInt(payable_amountElement.value)/splitbill;
 
         <div class="form-group">
           <label>Discount Amount</label>
-          <input
-            type="number"
-            id="discount_amount"
-            onblur="getGrossAmount()"
-          />
+          <input type="number" id="discount_amount" onblur="getGrossAmount()" />
         </div>
 
         <div class="form-group">
@@ -235,11 +231,7 @@ foreach_amountElement.value=parseInt(payable_amountElement.value)/splitbill;
         <div class="form-row">
           <div class="form-group">
             <label>Tax %</label>
-            <input
-              type="number"
-              id="tax_percent"
-              onblur="getNetAmount()"" 
-            />
+            <input type="number" id="tax_percent" onblur="getNetAmount()" />
           </div>
 
           <div class="form-group">
@@ -255,11 +247,7 @@ foreach_amountElement.value=parseInt(payable_amountElement.value)/splitbill;
 
         <div class="form-group">
           <label>Tip Amount</label>
-          <input
-            type="number"
-            id="tip_amount"
-            onblur="getPayableAmount()"
-          />
+          <input type="number" id="tip_amount" onblur="getPayableAmount()" />
         </div>
 
         <div class="form-group">
@@ -270,11 +258,7 @@ foreach_amountElement.value=parseInt(payable_amountElement.value)/splitbill;
         <div class="form-row">
           <div class="form-group">
             <label>Split Bill</label>
-            <input
-              type="number"
-              id="split_bill"
-              onblur="getForEachAmount()"
-            />
+            <input type="number" id="split_bill" onblur="getForEachAmount()" />
           </div>
 
           <div class="form-group">
@@ -292,24 +276,15 @@ foreach_amountElement.value=parseInt(payable_amountElement.value)/splitbill;
 
     <script>
       let bill_amountElement = document.getElementById("bill_amount");
-      let discount_amountElement =
-        document.getElementById("discount_amount");
-      let gross_amountElement =
-        document.getElementById("gross_amount");
-      let tax_percentElement =
-        document.getElementById("tax_percent");
-      let tax_amountElement =
-        document.getElementById("tax_amount");
-      let net_amountElement =
-        document.getElementById("net_amount");
-      let tip_amountElement =
-        document.getElementById("tip_amount");
-      let payable_amountElement =
-        document.getElementById("payable_amount");
-      let split_billElement =
-        document.getElementById("split_bill");
-      let foreach_amountElement =
-        document.getElementById("foreach_amount");
+      let discount_amountElement = document.getElementById("discount_amount");
+      let gross_amountElement = document.getElementById("gross_amount");
+      let tax_percentElement = document.getElementById("tax_percent");
+      let tax_amountElement = document.getElementById("tax_amount");
+      let net_amountElement = document.getElementById("net_amount");
+      let tip_amountElement = document.getElementById("tip_amount");
+      let payable_amountElement = document.getElementById("payable_amount");
+      let split_billElement = document.getElementById("split_bill");
+      let foreach_amountElement = document.getElementById("foreach_amount");
 
       function focusDisAmount() {
         discount_amountElement.focus;
@@ -317,28 +292,23 @@ foreach_amountElement.value=parseInt(payable_amountElement.value)/splitbill;
 
       function getGrossAmount() {
         let gross_amount =
-          bill_amountElement.value -
-          discount_amountElement.value;
+          bill_amountElement.value - discount_amountElement.value;
         gross_amountElement.value = gross_amount;
         tax_percentElement.focus();
       }
 
       function getNetAmount() {
         let taxAmount =
-          (gross_amountElement.value *
-            tax_percentElement.value) /
-          100;
+          (gross_amountElement.value * tax_percentElement.value) / 100;
         tax_amountElement.value = taxAmount;
         net_amountElement.value =
-          parseInt(gross_amountElement.value) +
-          taxAmount;
+          parseInt(gross_amountElement.value) + taxAmount;
         tip_amountElement.focus();
       }
 
       function getPayableAmount() {
         payable_amountElement.value =
-          parseInt(net_amountElement.value) +
-          parseInt(tip_amountElement.value);
+          parseInt(net_amountElement.value) + parseInt(tip_amountElement.value);
         split_billElement.focus();
       }
 
@@ -346,12 +316,10 @@ foreach_amountElement.value=parseInt(payable_amountElement.value)/splitbill;
         let splitbill = parseInt(split_billElement.value);
 
         if (splitbill <= 0) {
-          foreach_amountElement.value =
-            payable_amountElement.value;
+          foreach_amountElement.value = payable_amountElement.value;
         } else {
           foreach_amountElement.value =
-            parseInt(payable_amountElement.value) /
-            splitbill;
+            parseInt(payable_amountElement.value) / splitbill;
         }
       }
     </script>
