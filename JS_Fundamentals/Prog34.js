@@ -1,4 +1,4 @@
-// ! Concept: JavaScript Closures and private scopes.
+// ! We are demonstrating closures to create private variables and maintain state.
 //TODO: Closures
 //* A closure is a function that has access to its own scope,
 //* the outer function's scope, and the global scope.

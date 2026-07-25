@@ -1,4 +1,4 @@
-// ! Concept: Event Loop, Call Stack, Microtasks, and Macrotasks.
+// ! We are demonstrating execution order differences between microtasks (Promises) and macrotasks (setTimeout).
 // * MODEL 1
 console.log("Number 1");
 setTimeout(() => {

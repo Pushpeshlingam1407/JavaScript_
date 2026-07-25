@@ -1,4 +1,4 @@
-// ! Concept: Constructor functions for object blueprinting.
+// ! We are building objects dynamically using custom constructor functions.
 //TODO: Construction functions
 //* 1. A constructor function is a function that is used to create objects.
 

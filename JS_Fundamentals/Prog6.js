@@ -1,4 +1,4 @@
-// ! Concept: Logical operators and boolean expressions.
+// ! We are combining multiple conditions using logical operators AND, OR, and NOT.
 //TODO: Logical Operators
 let a = 24,
   b = 34,

@@ -1,4 +1,4 @@
-// ! Challenge: Solving tricky operator and evaluation questions.
+// ! We are solving tricky expression evaluation and logical operator precedence questions.
 //TODO: Tricky Questions
 console.log(3 + "3"); //33
 console.log(3 + "3" + 3 + "3"); //3333

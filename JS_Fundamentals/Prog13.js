@@ -1,4 +1,4 @@
-// ! Concept: Array traversal using for...in and for...of loops.
+// ! We are iterating through array elements using for...in (index) and for...of (value) loops.
 //TODO: Array Iteration
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(nums);

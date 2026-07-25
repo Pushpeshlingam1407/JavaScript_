@@ -1,4 +1,4 @@
-// ! Concept: Compound assignment operators.
+// ! We are performing value assignment operations using addition, subtraction, and multiplication shorthand.
 //TODO: Assignment operators
 let a = 2,
   b = 8;

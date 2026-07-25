@@ -1,4 +1,4 @@
-// ! Concept: Relational and comparison operators.
+// ! We are evaluating conditional comparisons using relational operators like greater than, less than, and equality.
 //TODO: Relational Operators
 let a = 20,
   b = 15,

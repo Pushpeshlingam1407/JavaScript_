@@ -1,4 +1,4 @@
-// ! Concept: Pure vs Impure Functions and state predictability.
+// ! We are contrasting pure functions that return predictable outputs with impure functions.
 /* What are Pure Functions?
 
 1. A pure function is a function that always produces the same output for the same input.

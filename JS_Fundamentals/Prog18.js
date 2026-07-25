@@ -1,4 +1,4 @@
-// ! Concept: Array filling with fill() and value retrieval with at().
+// ! We are filling array elements and accessing indexes from the end using fill and at methods.
 //TODO: Fill, at values
 
 const months = [

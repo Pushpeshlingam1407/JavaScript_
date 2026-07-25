@@ -1,4 +1,4 @@
-// ! Concept: Array declaration, indexing, and length properties.
+// ! We are declaring an array, accessing elements by index, and reading the array length.
 //TODO: ARRAYS
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log("first element: ", nums[0]); // 1

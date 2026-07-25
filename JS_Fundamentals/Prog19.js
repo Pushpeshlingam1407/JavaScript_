@@ -1,4 +1,4 @@
-// ! Concept: Array searching with find() and validation checks with every().
+// ! We are finding elements matching a condition and testing all elements using find and every.
 //TODO: Find, Every functions
 
 //TODO: Find

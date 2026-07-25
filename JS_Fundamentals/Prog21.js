@@ -1,4 +1,4 @@
-// ! Concept: Destructuring objects/arrays and the Rest operator.
+// ! We are destructuring arrays and objects and using the Rest and Spread operators.
 //TODO: Objects, Array Destructuring, Rest Operator
 
 const person = {

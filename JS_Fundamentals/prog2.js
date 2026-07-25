@@ -1,4 +1,4 @@
-// ! Concept: Variable scoping differences between let, var, and const.
+// ! We are demonstrating scope differences and hoisting behaviors between let, var, and const inside blocks.
 //TODO: let var const
 //* const is a immutable state
 //* let, const are block scope variable

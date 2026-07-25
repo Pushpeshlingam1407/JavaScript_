@@ -1,4 +1,4 @@
-// ! Concept: Callback functions and asynchronous execution flows.
+// ! We are passing callbacks into functions and tracing their execution order.
 //TODO: Callback functions
 //* 1. A callback function is a function that is passed as an argument to another function and is executed after some operation has been completed.
 //* 2. Callback functions are used to handle asynchronous operations in javascript.

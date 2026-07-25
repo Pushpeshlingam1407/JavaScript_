@@ -1,4 +1,4 @@
-// ! Concept: Rest parameter functions and basic API fetching.
+// ! We are utilizing the rest operator in functions and making asynchronous fetch requests to an API.
 //TODO: Function with REST operator
 
 function sum(...args) {

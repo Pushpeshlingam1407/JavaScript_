@@ -1,4 +1,4 @@
-// ! Concept: Dynamic typing and variable declarations in JavaScript.
+// ! We are assigning values of different data types to a variable and checking their types using typeof.
 //Js is a dynamic data type language
 //we can assign any type of data to a variable
 //we can change the type of data assigned to a variable

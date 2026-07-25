@@ -1,4 +1,4 @@
-// ! Concept: Regular Expressions matching, testing, and replacement.
+// ! We are matching pattern rules, testing emails, and replacing characters using regular expressions.
 let pattern = /pushpesh lingam/;
 let pname = "pushpesh";
 let res = pattern.test(pname);

@@ -1,4 +1,4 @@
-// ! Concept: Anonymous functions, Call Stack, Event Loop, and IIFE.
+// ! We are defining anonymous functions, executing IIFEs, and studying stack execution.
 //TODO: Anonymous function
 
 console.log("1");

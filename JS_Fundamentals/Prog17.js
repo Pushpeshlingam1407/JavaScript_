@@ -1,4 +1,4 @@
-// ! Concept: Array traversal with forEach and optional chaining.
+// ! We are iterating through an array using the forEach method with optional chaining.
 //TODO: forEach loop
 
 const nums = [1, 2, 3, 4, 5];

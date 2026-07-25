@@ -1,4 +1,4 @@
-// ! Practice: Object iteration and property listing.
+// ! We are iterating over object properties and printing key-value pairs of a movie object.
 const movie = {
   title: "Interstellar",
   releaseYear: 2014,

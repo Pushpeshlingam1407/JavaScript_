@@ -1,4 +1,4 @@
-// ! Concept: ES6 Classes and Constructor functions.
+// ! We are defining a student class with a constructor to initialize name and code.
 
 class student {
   constructor(code, name) {

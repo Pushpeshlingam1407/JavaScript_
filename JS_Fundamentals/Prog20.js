@@ -1,4 +1,4 @@
-// ! Concept: JavaScript Objects, memory reference, and Shallow vs Deep copy.
+// ! We are creating objects and comparing the behaviors of shallow copy and deep copy.
 //TODO: Objects
 
 const person = {

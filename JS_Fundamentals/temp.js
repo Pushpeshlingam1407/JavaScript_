@@ -1,4 +1,4 @@
-// ! Sandbox: Temporary playground for JavaScript code.
+// ! We are testing array cloning, generator loops, and index expansions.
 // const array_clone=arr1=>{
 //     return arr1.slice(0);
 // }

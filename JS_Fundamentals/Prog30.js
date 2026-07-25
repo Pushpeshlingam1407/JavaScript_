@@ -1,4 +1,4 @@
-// ! Interview Prep: Core JavaScript Questions and Answers.
+// ! We are answering interview questions on variable values and conditional block execution.
 //TODO: Interview Q&A
 // TODO: Question no 1
 const arr = [-1, null, undefined, "a", 2, 3, 5, "Undefined"];

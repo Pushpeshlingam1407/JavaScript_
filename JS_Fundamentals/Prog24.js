@@ -1,4 +1,4 @@
-// ! Concept: Higher-Order Functions (HOF) in JavaScript.
+// ! We are demonstrating higher-order functions that accept other functions as arguments.
 //TODO: Higher order functions
 //* 1. A higher order function is a function that takes one or more functions as arguments and/or returns a function as its result.
 //* 2. Higher order functions are used to create abstractions and to make code more reusable.

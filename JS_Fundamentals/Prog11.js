@@ -1,4 +1,4 @@
-// ! Deep Dive: Scoping differences (let vs var vs const).
+// ! We are comparing variable redeclaration, block scopes, and initialization rules of var, let, and const.
 //TODO: let vs var vs const
 
 /*

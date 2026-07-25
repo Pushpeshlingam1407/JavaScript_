@@ -1,4 +1,4 @@
-// ! Concept: Class instantiation and setting default property values.
+// ! We are instantiating class objects and verifying output values in the console.
 class student {
   constructor() {
     this.sname = "Pushpesh";
