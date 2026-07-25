@@ -1,4 +1,4 @@
-// TODO: Learn array value, key, and entry iteration methods.
+// ! Array Methods: Iterators (values, keys, entries).
 //TODO: Array Methods Part 1 in javascript
 
 //* 1) Values() => this method returns an iterator that provides that values for each element in the array

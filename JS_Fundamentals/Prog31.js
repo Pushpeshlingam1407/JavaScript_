@@ -1,4 +1,4 @@
-// TODO: Learn ES6 classes and constructor syntax.
+// ! Concept: ES6 Classes and Constructor functions.
 
 class student {
   constructor(code, name) {

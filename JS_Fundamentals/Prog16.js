@@ -1,4 +1,4 @@
-// TODO: Learn searching elements inside arrays using indexOf.
+// ! Concept: Finding element positions using indexOf.
 let nums = [11, 22, 45, 67, 89];
 
 //TODO: It returns the index of the first occurrence of the specified value, or -1 if it is not found.

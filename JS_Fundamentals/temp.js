@@ -1,4 +1,4 @@
-// TODO: Temporary scratchpad for JavaScript code experimentation.
+// ! Sandbox: Temporary playground for JavaScript code.
 // const array_clone=arr1=>{
 //     return arr1.slice(0);
 // }

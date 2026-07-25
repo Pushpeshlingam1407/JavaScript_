@@ -1,4 +1,4 @@
-// TODO: Master relational and comparison operators in JavaScript.
+// ! Concept: Relational and comparison operators.
 //TODO: Relational Operators
 let a = 20,
   b = 15,

@@ -1,4 +1,4 @@
-// TODO: Learn array traversal using forEach and optional chaining.
+// ! Concept: Array traversal with forEach and optional chaining.
 //TODO: forEach loop
 
 const nums = [1, 2, 3, 4, 5];

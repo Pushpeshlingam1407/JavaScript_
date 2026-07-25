@@ -1,4 +1,4 @@
-// TODO: Study Event Loop, Call Stack, Microtasks, and Macrotasks.
+// ! Concept: Event Loop, Call Stack, Microtasks, and Macrotasks.
 // * MODEL 1
 console.log("Number 1");
 setTimeout(() => {

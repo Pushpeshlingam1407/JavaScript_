@@ -1,4 +1,4 @@
-// TODO: Learn Regular Expressions matching, testing, and replacement.
+// ! Concept: Regular Expressions matching, testing, and replacement.
 let pattern = /pushpesh lingam/;
 let pname = "pushpesh";
 let res = pattern.test(pname);

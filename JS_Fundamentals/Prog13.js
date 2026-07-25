@@ -1,4 +1,4 @@
-// TODO: Learn iteration methods over arrays (for-in, for-of).
+// ! Concept: Array traversal using for...in and for...of loops.
 //TODO: Array Iteration
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(nums);

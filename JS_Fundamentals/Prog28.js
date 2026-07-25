@@ -1,4 +1,4 @@
-// TODO: Learn REST operator functions and basic API fetching.
+// ! Concept: Rest parameter functions and basic API fetching.
 //TODO: Function with REST operator
 
 function sum(...args) {

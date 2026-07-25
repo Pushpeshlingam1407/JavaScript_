@@ -1,4 +1,4 @@
-// TODO: Learn anonymous functions, IIFEs, and call stack.
+// ! Concept: Anonymous functions, Call Stack, Event Loop, and IIFE.
 //TODO: Anonymous function
 
 console.log("1");

@@ -1,4 +1,4 @@
-// TODO: Learn JavaScript objects and shallow vs deep cloning.
+// ! Concept: JavaScript Objects, memory reference, and Shallow vs Deep copy.
 //TODO: Objects
 
 const person = {

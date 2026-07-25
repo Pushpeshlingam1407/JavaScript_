@@ -1,4 +1,4 @@
-// TODO: Learn array search, filtering, and conditional verification.
+// ! Array Methods: Searching, filtering, and validation (find, some, includes).
 //TODO: Array Methods Part 4 in Javascript
 
 //* 23) find() => to check an element is present in the array or not.

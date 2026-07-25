@@ -1,4 +1,4 @@
-// TODO: Learn finding items and validation checks using find and every.
+// ! Concept: Array searching with find() and validation checks with every().
 //TODO: Find, Every functions
 
 //TODO: Find

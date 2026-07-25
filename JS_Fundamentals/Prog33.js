@@ -1,4 +1,4 @@
-// TODO: Practice iterating objects and printing properties.
+// ! Practice: Object iteration and property listing.
 const movie = {
   title: "Interstellar",
   releaseYear: 2014,

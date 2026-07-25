@@ -1,4 +1,4 @@
-// TODO: Learn array concatenation and array spread operator.
+// ! Concept: Array concatenation and spread syntax.
 //TODO: Array Operations(Concat & Spread)
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(nums);

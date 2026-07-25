@@ -1,4 +1,4 @@
-// TODO: Learn mutating arrays using splice method.
+// ! Concept: Mutating arrays using the splice method.
 //TODO: SPLICE
 //* syntax: array.splice(start_index,no_of_element_to_delete,adding_elements)
 let nums = [1, 2, 3, 4, 5, 6, 7, 8];

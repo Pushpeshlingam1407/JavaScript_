@@ -1,4 +1,4 @@
-// TODO: Master logical operators and condition testing in JavaScript.
+// ! Concept: Logical operators and boolean expressions.
 //TODO: Logical Operators
 let a = 24,
   b = 34,

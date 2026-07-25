@@ -1,4 +1,4 @@
-// TODO: Learn class instantiation and default property assignments.
+// ! Concept: Class instantiation and setting default property values.
 class student {
   constructor() {
     this.sname = "Pushpesh";

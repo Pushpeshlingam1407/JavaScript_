@@ -1,4 +1,4 @@
-// TODO: Learn filling array ranges and index retrieval using fill and at.
+// ! Concept: Array filling with fill() and value retrieval with at().
 //TODO: Fill, at values
 
 const months = [

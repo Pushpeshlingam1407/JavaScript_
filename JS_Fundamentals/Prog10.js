@@ -1,4 +1,4 @@
-// TODO: Learn bitwise operators and shift actions in JavaScript.
+// ! Concept: Bitwise operations and bit shifting.
 //TODO: Bitwise Operators
 console.log(5 & 9);
 console.log(5 | 9);

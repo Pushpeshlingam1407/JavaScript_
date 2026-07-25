@@ -1,4 +1,4 @@
-// TODO: Deep dive into let, var, and const scopes and behaviors.
+// ! Deep Dive: Scoping differences (let vs var vs const).
 //TODO: let vs var vs const
 
 /*

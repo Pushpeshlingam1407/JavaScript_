@@ -1,4 +1,4 @@
-// TODO: Learn object and array destructuring and rest operator.
+// ! Concept: Destructuring objects/arrays and the Rest operator.
 //TODO: Objects, Array Destructuring, Rest Operator
 
 const person = {
