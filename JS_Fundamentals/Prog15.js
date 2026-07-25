@@ -1,6 +1,7 @@
 //TODO: SPLICE
 //* syntax: array.splice(start_index,no_of_element_to_delete,adding_elements)
 let nums = [1, 2, 3, 4, 5, 6, 7, 8];
+console.log("OG Array: ");
 console.log(nums);
 nums.splice(2, 0, 100, 200);
 console.log("After Splice: ");
