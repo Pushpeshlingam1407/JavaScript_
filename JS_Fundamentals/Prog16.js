@@ -1,7 +1,7 @@
+//TODO: It returns the index of the first occurrence of the specified value, or -1 if it is not found.
 // ! We are searching for elements in an array and returning their index using indexOf.
 let nums = [11, 22, 45, 67, 89];
 
-//TODO: It returns the index of the first occurrence of the specified value, or -1 if it is not found.
 console.log(nums.indexOf(45));
 for (let x in nums) {
   console.log(x + "->" + nums[x]); //index

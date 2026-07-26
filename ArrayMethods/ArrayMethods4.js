@@ -1,5 +1,5 @@
-// ! We are checking element existence and matching conditions using find, findIndex, some, and includes.
 //TODO: Array Methods Part 4 in Javascript
+// ! We are checking element existence and matching conditions using find, findIndex, some, and includes.
 
 //* 23) find() => to check an element is present in the array or not.
 const arr = [10, 20, 30, 40, 50];

@@ -1,3 +1,4 @@
+//TODO: Iterating over object properties
 // ! We are iterating over object properties and printing key-value pairs of a movie object.
 const movie = {
   title: "Interstellar",

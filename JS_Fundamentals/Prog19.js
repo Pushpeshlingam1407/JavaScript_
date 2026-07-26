@@ -1,5 +1,5 @@
-// ! We are finding elements matching a condition and testing all elements using find and every.
 //TODO: Find, Every functions
+// ! We are finding elements matching a condition and testing all elements using find and every.
 
 //TODO: Find
 //* syntax: array.find((element)=>{return element>value})

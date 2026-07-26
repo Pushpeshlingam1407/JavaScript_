@@ -1,5 +1,5 @@
-// ! We are answering interview questions on variable values and conditional block execution.
 //TODO: Interview Q&A
+// ! We are answering interview questions on variable values and conditional block execution.
 // TODO: Question no 1
 const arr = [-1, null, undefined, "a", 2, 3, 5, "Undefined"];
 

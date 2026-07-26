@@ -1,5 +1,5 @@
-// ! We are merging arrays using the concat method and the ES6 spread operator.
 //TODO: Array Operations(Concat & Spread)
+// ! We are merging arrays using the concat method and the ES6 spread operator.
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(nums);
 let nums1 = [1, 3, 6, 67, 64, 56, 89, 100, 189, 134, 167, 145, 156, 178, 190];

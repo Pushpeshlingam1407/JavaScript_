@@ -1,5 +1,5 @@
-// ! We are defining anonymous functions, executing IIFEs, and studying stack execution.
 //TODO: Anonymous function
+// ! We are defining anonymous functions, executing IIFEs, and studying stack execution.
 
 console.log("1");
 console.log(9);

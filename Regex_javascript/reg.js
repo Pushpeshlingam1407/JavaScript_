@@ -1,10 +1,10 @@
+//TODO: Regular Expressions pattern matching and testing
 // ! We are matching pattern rules, testing emails, and replacing characters using regular expressions.
 let pattern = /pushpesh lingam/;
 let pname = "pushpesh";
 let res = pattern.test(pname);
 console.log(res);
 
-// TODO: Model 1
 
 //* ^ indicates the beginning of the pattern
 //* $ indicates the end of the pattern

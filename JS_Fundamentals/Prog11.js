@@ -1,5 +1,5 @@
-// ! We are comparing variable redeclaration, block scopes, and initialization rules of var, let, and const.
 //TODO: let vs var vs const
+// ! We are comparing variable redeclaration, block scopes, and initialization rules of var, let, and const.
 
 /*
  * let vs var vs const:

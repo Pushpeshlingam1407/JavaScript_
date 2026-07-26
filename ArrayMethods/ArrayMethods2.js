@@ -1,5 +1,5 @@
-// ! We are converting arrays to strings and performing stack/queue modifications with push, pop, shift, and unshift.
 //TODO: Array Methods Part 2 in Javascript
+// ! We are converting arrays to strings and performing stack/queue modifications with push, pop, shift, and unshift.
 
 //* 8) Join() & toString() => convert array into a string format
 const fruits = ["Apples", "Grapes", "Banana"];

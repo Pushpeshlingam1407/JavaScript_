@@ -1,5 +1,5 @@
-// ! We are combining multiple conditions using logical operators AND, OR, and NOT.
 //TODO: Logical Operators
+// ! We are combining multiple conditions using logical operators AND, OR, and NOT.
 let a = 24,
   b = 34,
   c = 33;

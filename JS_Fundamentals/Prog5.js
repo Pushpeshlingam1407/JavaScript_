@@ -1,5 +1,5 @@
-// ! We are evaluating conditional comparisons using relational operators like greater than, less than, and equality.
 //TODO: Relational Operators
+// ! We are evaluating conditional comparisons using relational operators like greater than, less than, and equality.
 let a = 20,
   b = 15,
   c = "15",

@@ -1,3 +1,4 @@
+//TODO: Assigning values of different data types and checking their types
 // ! We are assigning values of different data types to a variable and checking their types using typeof.
 //Js is a dynamic data type language
 //we can assign any type of data to a variable

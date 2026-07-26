@@ -1,5 +1,5 @@
-// ! We are building objects dynamically using custom constructor functions.
 //TODO: Construction functions
+// ! We are building objects dynamically using custom constructor functions.
 //* 1. A constructor function is a function that is used to create objects.
 
 function Person(name = null, age = null) {

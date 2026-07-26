@@ -1,3 +1,4 @@
+//TODO: Pure vs Impure Functions
 // ! We are contrasting pure functions that return predictable outputs with impure functions.
 /* What are Pure Functions?
 

@@ -1,5 +1,5 @@
-// ! We are utilizing the rest operator in functions and making asynchronous fetch requests to an API.
 //TODO: Function with REST operator
+// ! We are utilizing the rest operator in functions and making asynchronous fetch requests to an API.
 
 function sum(...args) {
   let total = 0;

@@ -1,5 +1,5 @@
-// ! We are exploring Chrome's V8 hoisting mechanism and differences between undefined and ReferenceError.
 //TODO: Hoisting is a mechanism in V8 Chrome engine
+// ! We are exploring Chrome's V8 hoisting mechanism and differences between undefined and ReferenceError.
 //TODO: It works only ES6 below versions functions
 //TODO: When the reference error is raised -> if you try to access a variable before it is declared
 //TODO: Undefined (You're declared the variable but you haven't assigned any value to it)

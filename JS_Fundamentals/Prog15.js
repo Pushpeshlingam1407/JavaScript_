@@ -1,5 +1,5 @@
-// ! We are adding and removing elements at specific indexes in an array using the splice method.
 //TODO: SPLICE
+// ! We are adding and removing elements at specific indexes in an array using the splice method.
 //* syntax: array.splice(start_index,no_of_element_to_delete,adding_elements)
 let nums = [1, 2, 3, 4, 5, 6, 7, 8];
 console.log("OG Array: ");

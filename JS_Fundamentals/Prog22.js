@@ -1,5 +1,5 @@
-// ! We are comparing standard function declarations and function expressions.
 //TODO: Function Declaration
+// ! We are comparing standard function declarations and function expressions.
 
 const res = sum(45, 36);
 console.log(res);

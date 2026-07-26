@@ -1,5 +1,5 @@
-// ! We are iterating through an array using the forEach method with optional chaining.
 //TODO: forEach loop
+// ! We are iterating through an array using the forEach method with optional chaining.
 
 const nums = [1, 2, 3, 4, 5];
 // let nums;

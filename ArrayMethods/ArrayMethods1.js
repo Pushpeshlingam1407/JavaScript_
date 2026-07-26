@@ -1,5 +1,5 @@
-// ! We are iterating over array elements, keys, and values using values(), keys(), and entries().
 //TODO: Array Methods Part 1 in javascript
+// ! We are iterating over array elements, keys, and values using values(), keys(), and entries().
 
 //* 1) Values() => this method returns an iterator that provides that values for each element in the array
 let arr = [1, 2, 3, 4, 45, 6];

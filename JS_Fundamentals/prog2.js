@@ -1,5 +1,5 @@
-// ! We are demonstrating scope differences and hoisting behaviors between let, var, and const inside blocks.
 //TODO: let var const
+// ! We are demonstrating scope differences and hoisting behaviors between let, var, and const inside blocks.
 //* const is a immutable state
 //* let, const are block scope variable
 //* var is a global scope variable

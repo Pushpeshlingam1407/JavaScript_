@@ -1,5 +1,5 @@
-// ! We are declaring an array, accessing elements by index, and reading the array length.
 //TODO: ARRAYS
+// ! We are declaring an array, accessing elements by index, and reading the array length.
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log("first element: ", nums[0]); // 1
 console.log("length of array: ", nums.length); // 10

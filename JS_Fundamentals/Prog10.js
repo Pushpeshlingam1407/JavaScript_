@@ -1,5 +1,5 @@
-// ! We are performing bitwise manipulations and shift operations on numbers.
 //TODO: Bitwise Operators
+// ! We are performing bitwise manipulations and shift operations on numbers.
 console.log(5 & 9);
 console.log(5 | 9);
 console.log(5 ^ 9);

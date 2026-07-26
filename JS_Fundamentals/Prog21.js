@@ -1,5 +1,5 @@
-// ! We are destructuring arrays and objects and using the Rest and Spread operators.
 //TODO: Objects, Array Destructuring, Rest Operator
+// ! We are destructuring arrays and objects and using the Rest and Spread operators.
 
 const person = {
   id: 1,

@@ -1,5 +1,5 @@
-// ! We are performing value assignment operations using addition, subtraction, and multiplication shorthand.
 //TODO: Assignment operators
+// ! We are performing value assignment operations using addition, subtraction, and multiplication shorthand.
 let a = 2,
   b = 8;
 console.log("a to the power of b:" + (a **= b));
