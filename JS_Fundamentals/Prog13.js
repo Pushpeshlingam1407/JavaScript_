@@ -20,7 +20,7 @@ console.log(nums[1]);
 //TODO: tricky Question
 let x = [1, 2];
 x[100] = 20;
-console.log(x.length); // Length is 101 because index 100 sets length to 100 + 1 (holes are counted).
+console.log(x.length); //* Length is 101 because index 100 sets length to 100 + 1 (holes are counted).
 console.log(x);
 
 var p = [1, 3, 6, 67, 64, 56, 89, 100, 189, 134, 167, 145, 156, 178, 190];
